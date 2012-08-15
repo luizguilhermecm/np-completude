@@ -13,14 +13,7 @@
 %\onehalfspace %espacamento de um e meio
 %\doublespace %espaçamento duplo
 
-\title{NP-Completude}
-
-\author{Breno Naodi Kusunoki \\
-        \texttt{brenokusunoki@gmail.com}
-        \and 
-        Luiz Guilherme Castilho Martins \\
-        \texttt{luizgui@gmail.com}
-} 
+\include{capa} 
 
 \date{Londrina, \today}
 
@@ -34,45 +27,14 @@
 \thispagestyle{empty}
 \newpage
 
-\section{Problemas com tempo polinomial}
-Problemas com tempo polinomial ou apenas problemas P são problemas que podem ser resolvidos em tempo polinomial.
+\input{p}
+\input{np}
+\input{npdificil}
+\input{npcompleto}
+\input{redutibilidade}
+\input{transferencia-de-cotas}
+\input{exemplos}
 
-Tempo polinomial significa dizer que um problema pode ser resolvido em tempo $O(n^k)$ para alguma constante $k$ e $n$ sendo o tamanho da entrada.
+\include{referencias}
 
-\section{Problemas polinomiais não determinísticos}
-Problemas polinomiais não determinísticos ou apenas problemas NP são problemas que não se tem um algorítmo determinístico com tempo polinomial que os resolvem, mas que podem ser verificados ou certificados em tempo polinomial, isso significa dizer que dado uma possível solução para um problema NP é possível verificar se essa solução está correta em tempo polinomial ou seja $O(n^k)$.
-
-\section{Problemas NP-Difícil}
-Problemas NP-Difícil são problemas que podem ser redutíveis em tempo polinomial a todos os problemas NP porém esse problema não está contido em NP.
-
-\section{Problemas NP-Completo}
-Problemas NP-Completo são problemas que são NP e também é tão "difícil" quanto todos os outros problemas NP, e isso deve ser provado matematicamente assim como o \textit{Teorema de Cook} com o \textit{Problema SAT}, uma vez que não é possível prová-los um-a-um devido a grande quantidade de problemas NP.
-
-\section{Redutibilidade}
-Redutibilidade é utilizado na prova de NP-Completude. Reduzir um problema significa dizer que dado dois problemas \textbf{A} a \textbf{B}, existe uma função com tempo polinomial que transforma qualquer instância de \textbf{A} em instância de \textbf{B}, existindo também a condicional \textit{se somente se} sobre a resposta, ou seja, se a resposta de \textbf{A} é "sim" a de \textbf{B} também é "sim".
-
-\section{Transferência de cotas}
-Transferência de cotas se dá quando há uma redução de um problema em outro, dessa forma existe uma transferência de cota inerente da redução.
-
-Dada uma redução polinomial de \textbf{X} a \textbf{Y} ou seja $X \leq_P Y$ e o algoritmo de redução $f$ de tempo polinomial. Sabendo que a cota superior de \textbf{Y} é $O\,(nlgn)$ existirá uma transferência da cota superior de \textbf{Y} para a cota inferior de \textbf{X} acrescido do tempo do algoritmo de redução ou seja o a cota inferior de \textbf{X} será $O\,(nlgn\,+\,f)$
-
-\section{Exemplos}
-
-
-\subsection{O Problema da Coloração de Grafos}
-Um grafo $G\:(V,E)$ pode ser "colorido" com $k$ cores?
-
-\subsection{Exemplo 2}
-
-
-\newpage
-
-\nocite{HOPCROFT1974}
-\nocite{VIEIRA2001}
-\nocite{SKIENA2010}
-\nocite{NEAPOLITAN1997}
-\nocite{MANBER1989}
-
-\bibliographystyle{ieeetr}
-\bibliography{bibliografia}
 \end{document}
