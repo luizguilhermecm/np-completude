@@ -3,3 +3,50 @@ Trabalho de NP-Completude da matéria de Teoria da Computação
 Nomes:
 Breno Naodi Kusunoki
 Luiz Guilherme Castilho Martins
+
+np-completude.tex
+|pacotes
+|
+|-- capa.tex
+|  | titulo, nome, email
+|
+|sumario
+|
+|-- p.tex
+|  | Problemas P
+|
+|-- np.tex
+|  | Problemas NP
+|
+|-- npdificil.tex
+|  | Problemas NP-Difícil
+|
+|-- npcompleto.tex
+|  | Problemas NP-Completo
+|
+|-- redutibilidade.tex
+|  | Redutibilidade
+|
+|-- transferencia-de-cotas.tex
+|  | Transferencia de cotas
+|
+|-- exemplos.tex
+|  | Exemplos
+|  |
+|  |-- coloracao-grafos.tex
+|  |  | Coloracao de Grafos
+|  |
+|  |-- ex2.tex
+|  |  | Exemplo 2
+|  |
+|
+|-- referencias.tex
+|  | Referencias
+|  |
+|  |-- bibliografia.bib
+|  |  | bibtex com referencias
+|  |  |
+|  |
+|
+|end{document}
+
