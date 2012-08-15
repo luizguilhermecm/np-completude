@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{HOPCROFT1974}
+J.~E. Hopcroft, J.~D. Ullman, and A.~V. Aho, {\em The Design and Analysis of
+  Computer Algorithms}.
+\newblock Addison-Wesley, 1974.
+
+\bibitem{VIEIRA2001}
+L.~V. Toscani and P.~A.~S. Veloso, {\em Complexidade de Algoritmos Analise,
+  Projeto e Metodos}.
+\newblock Porto Alegre, RS: Editora Sagra Luzzatto, 1~ed., 2009.
+
+\bibitem{SKIENA2010}
+S.~S. Skiena, {\em The Algorithm Design MANUAL}.
+\newblock Springer, 2~ed., 2010.
+
+\bibitem{NEAPOLITAN1997}
+K.~N. Richard~Neapolitan, {\em Foundations of Algorithms Using C++ Pseudocode}.
+\newblock Jones and Bartlett, 2~ed., 1997.
+
+\bibitem{MANBER1989}
+U.~Manber, {\em Introduction To Algorithms - A Creative Approach}.
+\newblock Addison-Wesley, 1~ed., 1989.
+
+\end{thebibliography}

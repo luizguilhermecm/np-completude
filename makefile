@@ -8,6 +8,12 @@ $(FILE).pdf: $(FILE).tex
 run:
 	open $(FILE).pdf
 
+bib:
+	$(MAKE)
+	bibtex $(FILE)
+	$(MAKE)
+	$(MAKE)
+
 clean:
 	$(RM) $(FILE).pdf
 
