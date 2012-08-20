@@ -1,3 +1,4 @@
-\section{Redutibilidade}
-Redutibilidade é utilizado na prova de NP-Completude. Reduzir um problema significa dizer que dado dois problemas \textbf{A} a \textbf{B}, existe uma função com tempo polinomial que transforma qualquer instância de \textbf{A} em instância de \textbf{B}, existindo também a condicional \textit{se somente se} sobre a resposta, ou seja, se a resposta de \textbf{A} é "sim" a de \textbf{B} também é "sim".
+\section{Redutibilidade em tempo polinomial}
+Redutibilidade em tempo polinomial é uma ferramenta para se reduzir um problema a outro, ou seja, utilizar um problema na solução de outro utilizando funções polinomiais denominadas algoritmos de redução.
 
+Podemos reduzir polinomialmente um problema \textbf{A} em um problema \textbf{B} se existe uma função polinomial $f$ que transforma a entrada de \textbf{A} em entrada de \textbf{B} e também exista uma função $g$ que transforma a saída de \textbf{B} em saída de \textbf{A}. Porém existe ainda a condicional \textit{se somente se} sobre a resposta, uma vez que, se a resposta de \textbf{A} é \textit{"sim"} a resposta de \textbf{B} também deverá ser \textit{"sim"}, caso contrário a redução não existe.
