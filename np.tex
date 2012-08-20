@@ -3,6 +3,13 @@ Problemas polinomiais não determinísticos ou apenas problemas \textbf{NP} é u
 
 Para esse tipo de problemas utiliza-se algoritmos não determinísticos como parte da solução e cria-se mecanismos para fazer a validação da solução "encontrada". Essa validação deve ter custo polinomial para que faça sentido o uso desta abordagem. 
 
-Podemos definir de forma mais informal que algoritmos não deterministicos são algoritmos que basicamente "escolhem" uma solução entre todas as possíveis soluções, sem nenhum critério de escolha. Essa "escolha" por sua vez tem custo $O\,(1)$ uma vez que não é realizado nenhum esforço computacional.
+Podemos definir de forma mais informal que algoritmos não determinísticos são algoritmos que basicamente "escolhem" uma solução entre todas as possíveis soluções, sem nenhum critério de escolha. Essa "escolha" por sua vez tem custo $O\,(1)$ uma vez que não é realizado nenhum esforço computacional.
 
-Pode-se acrescentar também que todos os problemas em \textbf{P} também estão em \textbf{NP}, ou seja o conjunto de problemas \textbf{P} está contido em \textbf{NP}, isso se dá pelo fato de que podemos resolver qualquer problema \textbf{P} em tempo polinomial \cite{leisersonalgoritmos}. 
+Pode-se acrescentar também que todos os problemas em \textbf{P} também estão em \textbf{NP}, ou seja o conjunto de problemas \textbf{P} está contido em \textbf{NP}, isso se dá pelo fato de que podemos resolver qualquer problema \textbf{P} em tempo polinomial \cite{leisersonalgoritmos}.
+
+\begin{figure}[H]
+	\centering
+	\label{fig1}
+	\includegraphics[scale=2]{./figuras/figProblemas.png}
+	\caption{O modo como grande parte dos cientistas da computação vê os relacinamentos entre P, NP e NPC. Tanto P quanto NPC estão completamente contidas dentro de NP, e $P \cap NP-Completo = \phi$ \cite{leisersonalgoritmos}}
+\end{figure}
