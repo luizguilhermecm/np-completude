@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{leisersonalgoritmos}
+C.~LEISERSON, R.~RIVEST, T.~CORMEN, and C.~STEIN, {\em ALGORITMOS - TEORIA E
+  PRATICA: TRADU{\c{C}}{\~A}O DA 2a EDI{\c{C}}{\~A}O AMERICANA}.
+\newblock CAMPUS.
+
 \bibitem{HOPCROFT1974}
 J.~E. Hopcroft, J.~D. Ullman, and A.~V. Aho, {\em The Design and Analysis of
   Computer Algorithms}.
