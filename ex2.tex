@@ -1,4 +1,6 @@
 \subsection{O Problema do Clique}
 
-Um clique em um grafo G é um subconjunto C de vértices tal que, para cada $v$ e $w$ em C com $v \neq w$, ($v$,$w$) é uma aresta.
-O problema recebe como entrada um grafo G e um inteiro $k$ e efetua a pergunta se há um clique em G de tamanho mínimo $k$ \cite{goodrichprojeto}.
+Um clique em um grafo G não orientado é um subconjunto C de vértices tal que, para cada $v$ e $w$ em C com $v \neq w$, ($v$,$w$) é uma aresta.
+Para um grafo não orientado G e um inteiro $k$ como entrada,decidir se há um clique em G de tamanho mínimo $k$ \cite{goodrichprojeto}.
+
+O problema do clique é NP. Pois podemos verificar se existe no mínimo $k$ vértices em C e também se há uma aresta para cada par de vértices em C, em tempo polinomial. Para provar que o problema do clique é NP-Completo basta demonstrar que SAT pode ser reduzido ao problema do clique.
